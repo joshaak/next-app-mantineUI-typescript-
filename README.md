@@ -7,3 +7,4 @@ Get started with the template by clicking `Use this template` button on the top 
 ## Baxture Assignment using react,nextjs and mantine UI
 
 ### author: Mohammed Sharukh
+# next-app-min-template1
