@@ -8,3 +8,4 @@ Get started with the template by clicking `Use this template` button on the top 
 
 ### author: Mohammed Sharukh
 # next-app-min-template1
+# next-app-min-template1
