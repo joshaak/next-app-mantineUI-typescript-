@@ -39,8 +39,7 @@ const IndexPage: React.FC = () => {
   const [users, setUsers] = useState<User[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
-  // const [isClicked, setIsClicked] = useState(false);
-  console.log(process.env.API_KEY);
+
   useEffect(() => {
     const fetchUsers = async () => {
       try {
@@ -95,6 +94,7 @@ const IndexPage: React.FC = () => {
       {error && <p>{error}</p>}
       {users.map((user) => (
         <Paper
+          key={user.id}
           style={{
             borderRadius: "var(--mantine-radius-md)",
             boxShadow: "var(--mantine-shadow-md)",
